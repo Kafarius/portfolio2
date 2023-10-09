@@ -1,0 +1,221 @@
+.aboutsection {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    background-image: url("../imgs/about.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+.aboutsection .abouttile {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    position: relative;
+    top: 10%;
+    min-height: 200px;
+}
+.abouttile .segment {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    margin: 15px 0 ;
+    box-sizing: border-box;
+}
+.imagebox {
+    display: block;
+    height: auto;
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+}
+.imagebox img {
+/*492 x 633*/
+    display: block;
+    height: auto;
+    width: 246px;
+    border-radius: 30px;
+
+}
+.details {
+
+}
+.detailsheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    color: #cbcbcb;
+    text-shadow: #000000 1px 0 10px;
+}
+.detailsheader svg {
+    text-shadow:  #000000 1px 0 10px !important;
+}
+.detailsinner {
+    background-color: white;
+    border-radius: 30px;
+    width: auto;
+    height: 70%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.detailsinner h2 {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2px;
+}
+.detailsinner p {
+    color: #313131;
+    font-size: 18px;
+}
+.experience, .education {
+    display: block;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    font-weight: lighter;
+}
+.experience h3, .education h3 {
+    margin: 0;
+    padding: 30px;
+    color: gray;
+}
+.list {
+
+}
+.list li {
+    margin: 15px 0;
+}
+.list h4 {
+    color: #5b9bcf;
+    margin: 0;
+    font-size: 18px;
+}
+.list p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hobby {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.hobby h4 {
+    color: #5b9bcf;
+    margin: 0;
+    font-size: 18px;
+}
+.hobby img {
+    width: 120px;
+    height: 90px;
+    border-radius: 20px;
+}
+.profiles, .workingtogether, .gotoprojects {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: auto;
+}
+.profiles h3, .workingtogether h3, .gotoprojects h3 {
+    margin: 0;
+    padding: 30px;
+    color: gray;
+}
+
+.profiles {
+    padding-bottom: 35px;
+}
+.profiles .profileswrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #5b9bcf;
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 30px;
+
+}
+.profileswrap .profiletile {
+    background-color: white;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    color: gray;
+}
+.profileswrap .profiletile:hover {
+    color: black;
+}
+.profiletile svg {
+    display: block;
+    height: 50px;
+    width: 50px;
+
+}
+.workingtogether{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.workingtogether  svg {
+    display: block;
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.gotoprojects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.gotoprojects a {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #5b9bcf;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.gotoprojects a:hover {
+    background-color: #4d6999;
+}
+.together {
+    color: #5b9bcf;
+}
+.arrowwrap {
+    cursor: pointer;
+}
+
+

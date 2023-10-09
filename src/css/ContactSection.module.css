@@ -1,0 +1,129 @@
+.contactsection {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 1920px;
+    background-image: url("../imgs/contact.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contacttile {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    position: relative;
+    top: 10%;
+    min-height: 200px;
+}
+.contactheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    /*margin-bottom: 7%;*/
+    padding: 0;
+    font-size: 60px;
+    color: white;
+    text-shadow: #000000 2px 2px 2px;
+}
+.contactheader span {
+    color: #5b9bcf;
+    margin-left: 15px;
+}
+.contacttile .segment {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    margin: 15px 0 ;
+    box-sizing: border-box;
+}
+.contactinfos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.contactdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.contactdetails li {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+}
+.contactdetails li div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 10px;
+}
+.contactdetails li div:first-child {
+    background-color: #313131;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contactdetails li div svg {
+    font-size: 40px;
+
+}
+.contactdetails li div p {
+    margin: 0;
+    width: 100%;
+}
+.contactdetails li div span {
+    color: #5b9bcf;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    width: 100%;
+}
+.contactsocials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    border: 2px solid #313131;
+    border-radius: 10px;
+    width: 62%;
+    padding: 10px;
+}
+.contactsocials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    color: #313131;
+}
+.contactsocials a:hover {
+    background-color: #313131;
+    color: #65c5ff;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.contactsocials a svg {
+    font-size: 35px;
+}
