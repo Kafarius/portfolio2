@@ -2,7 +2,6 @@
     display: block;
     width: 100%;
     height: auto;
-    min-height: 1920px;
     background-image: url("../imgs/contact.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -37,6 +36,7 @@
 }
 .contacttile .segment {
     display: flex;
+    justify-content: center;
     gap: 30px;
     width: 100%;
     height: auto;

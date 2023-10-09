@@ -89,18 +89,18 @@
     padding: 20px;
 }
 .projectname {
-    background-color: #eeeeee;
+    background-color: #5b9bcf;
     padding: 10px;
     border-radius: 10px;
-    color: #5b9bcf;
+    color:  #eeeeee;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
     text-decoration: none;
 }
 .projectname:hover {
-    background-color: #5b9bcf;
-    color:  #eeeeee;
+    background-color:  #eeeeee;
+    color:  #5b9bcf;
 }
 .githublink {
     font-size: 15px;

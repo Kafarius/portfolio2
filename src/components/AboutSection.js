@@ -201,6 +201,7 @@ const AboutSection = () => {
                         <h1>Let's work <span className={classes.together}><br></br>together</span>.</h1>
                         <motion.div
                             className={classes.arrowwrap}
+                            onClick={()=>window.scrollTo({top: 3850, behavior: 'smooth'})}
                             animate={{
                                 scale: [1, 2, 2, 1, 1],
                                 rotate: [0, 0, 270, 270, 0],
@@ -227,7 +228,11 @@ const AboutSection = () => {
                         className={`${classes.experience} ${classes.gotoprojects}`}
                     >
                         <h3>PROJECTS</h3>
-                        <a href={'#'}> Check out my projects.</a>
+                        <a
+                            onClick={()=>window.scrollTo({top: 2350, behavior: 'smooth'})}
+                            // href={'#'}
+                        > Check out my projects.
+                        </a>
                     </motion.div>
                 </div>
 

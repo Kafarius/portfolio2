@@ -10,16 +10,24 @@ const Header = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.75 }}
                 className={classes.navbar}>
-                <a href='#' className={classes.navlink}>
+                <a
+                    onClick={()=>window.scrollTo({top: 0, behavior: 'smooth'})}
+                    className={classes.navlink}>
                     Home
                 </a>
-                <a href='#' className={classes.navlink}>
+                <a
+                    onClick={()=>window.scrollTo({top: 950, behavior: 'smooth'})}
+                    className={classes.navlink}>
                     About
                 </a>
-                <a href='#' className={classes.navlink}>
+                <a
+                    onClick={()=>window.scrollTo({top: 2350, behavior: 'smooth'})}
+                    className={classes.navlink}>
                     Projects
                 </a>
-                <a href='#' className={classes.navlink}>
+                <a
+                    onClick={()=>window.scrollTo({top: 3850, behavior: 'smooth'})}
+                    className={classes.navlink}>
                     Contact
                 </a>
             </motion.div>

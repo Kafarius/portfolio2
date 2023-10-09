@@ -4,6 +4,7 @@ import EmailContactForm from "./EmailContactForm";
 import { FiMapPin, FiPhone, FiMail } from 'react-icons/fi';
 import { BiLogoLinkedin, BiLogoGithub } from 'react-icons/bi';
 import { motion } from "framer-motion";
+import Footer from "./Footer";
 
 
 const ContactSection = () => {
@@ -111,6 +112,7 @@ const ContactSection = () => {
                     <EmailContactForm />
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };

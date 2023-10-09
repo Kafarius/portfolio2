@@ -207,6 +207,7 @@
     font-size: 20px;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 .gotoprojects a:hover {
     background-color: #4d6999;

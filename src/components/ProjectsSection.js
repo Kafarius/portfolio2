@@ -167,7 +167,7 @@ const ProjectsSection = () => {
                                     className={classes.projectitem}
                                     initial={{ opacity: 0, scale: 0 }}
                                     whileInView={{ opacity: 1, scale: 1}}
-                                    transition={{duration: 1,}}
+                                    transition={{duration: 0.6,}}
                                     whileHover={{scale: 1.2}}
                                     whileTap={{scale: 0.9}}
                                     viewport={{ root: scrollRef, once: true}}
