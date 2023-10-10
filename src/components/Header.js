@@ -16,17 +16,17 @@ const Header = () => {
                     Home
                 </a>
                 <a
-                    onClick={()=>window.scrollTo({top: 950, behavior: 'smooth'})}
+                    onClick={()=>window.scrollTo({top: 1000, behavior: 'smooth'})}
                     className={classes.navlink}>
                     About
                 </a>
                 <a
-                    onClick={()=>window.scrollTo({top: 2350, behavior: 'smooth'})}
+                    onClick={()=>window.scrollTo({top: 2550, behavior: 'smooth'})}
                     className={classes.navlink}>
                     Projects
                 </a>
                 <a
-                    onClick={()=>window.scrollTo({top: 3850, behavior: 'smooth'})}
+                    onClick={()=>window.scrollTo({top: 4150, behavior: 'smooth'})}
                     className={classes.navlink}>
                     Contact
                 </a>

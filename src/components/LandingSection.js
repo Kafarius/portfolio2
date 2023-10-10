@@ -61,7 +61,6 @@ const LandingSection = () => {
                 >
                     <BiDownArrow />
                 </motion.div>
-
             </div>
         </div>
     );

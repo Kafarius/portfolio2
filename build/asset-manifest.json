@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3964ebef.css",
+    "main.js": "/static/js/main.8aaa908d.js",
+    "static/media/about.jpg": "/static/media/about.b671e4b9a93b53178c43.jpg",
+    "static/media/projects.jpg": "/static/media/projects.069785af1a44861feac6.jpg",
+    "static/media/rpg.jpg": "/static/media/rpg.3ff5de20d5c3154246fc.jpg",
+    "static/media/landing2.jpg": "/static/media/landing2.565a1b1c90f1b82bdba8.jpg",
+    "static/media/contact.jpg": "/static/media/contact.c7a2518fc4aab27c980b.jpg",
+    "static/media/idimg.jpg": "/static/media/idimg.b859ad6c60abb3b06dce.jpg",
+    "static/media/landing.jpg": "/static/media/landing.1b79687dc00b3b3c008f.jpg",
+    "static/media/css_logo.png": "/static/media/css_logo.447f147b6c3acd16e947.png",
+    "static/media/games.jpg": "/static/media/games.cf7844f4397b28838e4b.jpg",
+    "static/media/bootstrap.jpg": "/static/media/bootstrap.d0357b6b506723dbe0e2.jpg",
+    "static/media/react_logo.png": "/static/media/react_logo.20adfb35ae6a6e5817bf.png",
+    "static/media/universe.jpg": "/static/media/universe.bfb813bac3685d701835.jpg",
+    "static/media/js_logo.png": "/static/media/js_logo.82bd44a0de0f4f04bfe4.png",
+    "static/media/django.png": "/static/media/django.4c399895f677cd3bfbc8.png",
+    "static/media/python.png": "/static/media/python.5b4b17ba4f5034f5fb95.png",
+    "static/media/redux_logo.png": "/static/media/redux_logo.b3b939c66aecf7d53967.png",
+    "index.html": "/index.html",
+    "main.3964ebef.css.map": "/static/css/main.3964ebef.css.map",
+    "main.8aaa908d.js.map": "/static/js/main.8aaa908d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3964ebef.css",
+    "static/js/main.8aaa908d.js"
+  ]
+}

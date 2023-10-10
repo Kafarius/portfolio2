@@ -201,7 +201,7 @@ const AboutSection = () => {
                         <h1>Let's work <span className={classes.together}><br></br>together</span>.</h1>
                         <motion.div
                             className={classes.arrowwrap}
-                            onClick={()=>window.scrollTo({top: 3850, behavior: 'smooth'})}
+                            onClick={()=>window.scrollTo({top: 4150, behavior: 'smooth'})}
                             animate={{
                                 scale: [1, 2, 2, 1, 1],
                                 rotate: [0, 0, 270, 270, 0],
@@ -229,7 +229,7 @@ const AboutSection = () => {
                     >
                         <h3>PROJECTS</h3>
                         <a
-                            onClick={()=>window.scrollTo({top: 2350, behavior: 'smooth'})}
+                            onClick={()=>window.scrollTo({top: 2550, behavior: 'smooth'})}
                             // href={'#'}
                         > Check out my projects.
                         </a>
