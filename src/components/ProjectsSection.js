@@ -52,7 +52,7 @@ const ProjectsSection = () => {
         {
             name: 'React-Estore',
             text: 'This is a simple e-store template, where content of the cart and all changes are saved immediately in Firebase. ',
-            projectLink: 'https://comforting-sunshine-412c94.netlify.app/welcome',
+            projectLink: 'https://comforting-sunshine-412c94.netlify.app/',
             githubLink: 'https://github.com/Kafarius/React-Estore',
             techs: [
                 {
