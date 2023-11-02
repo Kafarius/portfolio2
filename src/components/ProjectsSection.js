@@ -29,6 +29,27 @@ const ProjectsSection = () => {
             ]
         },
         {
+            name: 'Weather Application',
+            text: 'Weather application, which shows current weather depending on user localization. Based on OpenWeather Api, React.js and react-icons.',
+            projectLink: 'https://luminous-mermaid-fedbbd.netlify.app/',
+            githubLink: 'https://github.com/Kafarius/weatherapp',
+            techs: [
+                {
+                    name: 'React',
+                    url: 'react_logo.png'
+                },
+                {
+                    name: 'HTML',
+                    url: 'html_logo.png'
+                },
+                {
+                    name: 'CSS',
+                    url: 'css_logo.png'
+                },
+
+            ]
+        },
+        {
             name: 'React-Estore',
             text: 'This is a simple e-store template, where content of the cart and all changes are saved immediately in Firebase. ',
             projectLink: 'https://comforting-sunshine-412c94.netlify.app/welcome',
@@ -173,10 +194,10 @@ const ProjectsSection = () => {
                                     viewport={{ root: scrollRef, once: true}}
                                 >
                                     <div className={classes.projectinner}>
-                                        <a href={'#'} className={classes.projectname}>
+                                        <a target='_blank' href={project.projectLink} className={classes.projectname}>
                                             {project.name}
                                         </a>
-                                        <a href={'#'} className={classes.githublink}>
+                                        <a target='_blank' href={project.githubLink} className={classes.githublink}>
                                             {project.githubLink}
                                         </a>
                                         <p className={classes.projecttext}>
