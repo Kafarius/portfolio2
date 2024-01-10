@@ -4,11 +4,13 @@ import classes from '../css/LandingSection.module.css'
 import { motion } from "framer-motion"
 import { BiDownArrow, BiLogoLinkedin, BiLogoGithub } from 'react-icons/bi';
 
-const LandingSection = () => {
+const LandingSection = (props) => {
+    const screenWidth = window.innerWidth;
+    let pad = screenWidth <= 500 ? 100 : 50
 
     return (
-        <div className={classes.landingsection}>
-            <Header />
+        <div id="landing-section" className={classes.landingsection}>
+            <Header offsetArr={props.offsetArr} />
             <div className={classes.landingtile}>
                 <motion.div
                     initial={{ opacity: 0, y: 150 }}
@@ -57,7 +59,7 @@ const LandingSection = () => {
                     animate={{opacity: 1, y: 0}}
                     transition={{ delay: 3, duration: 0.75 }}
                     className={classes.down}
-                    onClick={()=>window.scrollTo({top: 1000, behavior: 'smooth'})}
+                    onClick={()=>window.scrollTo({top: props.offsetArr[1] - pad, behavior: 'smooth'})}
                 >
                     <BiDownArrow />
                 </motion.div>

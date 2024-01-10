@@ -7,28 +7,11 @@ import { motion } from "framer-motion";
 import Footer from "./Footer";
 
 
-const ContactSection = () => {
+const ContactSection = (props) => {
     const scrollRef = useRef(null);
 
-    // const list = {
-    //     visible: {
-    //         opacity: 1,
-    //         transition: {
-    //         when: "beforeChildren",
-    //         staggerChildren: 0.3,
-    //         },
-    //     },
-    //     hidden: {
-    //         opacity: 0,
-    //     },
-    // }
-    //
-    // const item = {
-    //     visible: { opacity: 1, x: 0 },
-    //     hidden: { opacity: 0, x: -100 },
-    // }
     return (
-        <div className={classes.contactsection}>
+        <div id="contact-section" className={classes.contactsection}>
             <div className={classes.contacttile}>
                 <motion.h1
                     initial={{ opacity: 0, scale: 0 }}
@@ -36,7 +19,7 @@ const ContactSection = () => {
                     viewport={{ root: scrollRef, once: true }}
                     className={classes.contactheader}
                 >
-                        LET'S WORK<span>TOGETHER</span>.
+                        LET'S WORK<span>TOGETHER</span>
                 </motion.h1>
                 <div className={classes.segment}>
                     <motion.div
@@ -94,7 +77,7 @@ const ContactSection = () => {
                                 <div className={classes.rightdetails}>
                                     <span>Location</span>
                                     <p>Warsaw, 02-136</p>
-                                    <p>Strubiczów 1</p>
+                                    <p>Strubiczów</p>
                                 </div>
                             </motion.li>
 

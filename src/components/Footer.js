@@ -17,7 +17,7 @@ const Footer = () => {
                             It is a complete understanding of the universe,<br/>
                             why it is as it is and why it exists at all.
                         </q>
-                        <br/>
+                        {/*<br/>*/}
                         <i> -Stephen Hawking</i>
                     </div>
                 </div>

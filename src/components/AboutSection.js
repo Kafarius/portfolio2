@@ -8,7 +8,7 @@ import { BiLogoGithub } from 'react-icons/bi';
 import { BsFillArrowRightSquareFill } from 'react-icons/bs';
 import Skill from "./Skill";
 
-const AboutSection = () => {
+const AboutSection = (props) => {
     const scrollRef = useRef(null);
     let segmentRef = useRef(null);
     const skills = [
@@ -51,8 +51,12 @@ const AboutSection = () => {
     const games = require('../imgs/games.jpg');
     const rpg = require('../imgs/rpg.jpg');
 
+    const screenWidth = window.innerWidth;
+    let pad = screenWidth <= 500 ? 100 : 50
+
+
     return (
-        <div className={classes.aboutsection}>
+        <div id="about-section" className={classes.aboutsection}>
             <div className={classes.abouttile}>
                 <div className={classes.segment}>
                     <motion.div
@@ -201,7 +205,7 @@ const AboutSection = () => {
                         <h1>Let's work <span className={classes.together}><br></br>together</span>.</h1>
                         <motion.div
                             className={classes.arrowwrap}
-                            onClick={()=>window.scrollTo({top: 4150, behavior: 'smooth'})}
+                            onClick={()=>window.scrollTo({top: props.offsetArr[3]-pad, behavior: 'smooth'})}
                             animate={{
                                 scale: [1, 2, 2, 1, 1],
                                 rotate: [0, 0, 270, 270, 0],
@@ -229,7 +233,7 @@ const AboutSection = () => {
                     >
                         <h3>PROJECTS</h3>
                         <a
-                            onClick={()=>window.scrollTo({top: 2550, behavior: 'smooth'})}
+                            onClick={()=>window.scrollTo({top: props.offsetArr[2]-pad, behavior: 'smooth'})}
                             // href={'#'}
                         > Check out my projects.
                         </a>

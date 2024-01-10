@@ -2,7 +2,10 @@ import React from 'react';
 import classes from '../css/Header.module.css'
 import { motion } from "framer-motion"
 
-const Header = () => {
+const Header = (props) => {
+    const screenWidth = window.innerWidth;
+    let pad = screenWidth <= 500 ? 100 : 50
+
     return (
         <div className={classes.header}>
             <motion.div
@@ -16,17 +19,17 @@ const Header = () => {
                     Home
                 </a>
                 <a
-                    onClick={()=>window.scrollTo({top: 1000, behavior: 'smooth'})}
+                    onClick={()=>window.scrollTo({top: props.offsetArr[1] - pad, behavior: 'smooth'})}
                     className={classes.navlink}>
                     About
                 </a>
                 <a
-                    onClick={()=>window.scrollTo({top: 2550, behavior: 'smooth'})}
+                    onClick={()=>window.scrollTo({top: props.offsetArr[2] - pad, behavior: 'smooth'})}
                     className={classes.navlink}>
                     Projects
                 </a>
                 <a
-                    onClick={()=>window.scrollTo({top: 4150, behavior: 'smooth'})}
+                    onClick={()=>window.scrollTo({top: props.offsetArr[3] - pad, behavior: 'smooth'})}
                     className={classes.navlink}>
                     Contact
                 </a>

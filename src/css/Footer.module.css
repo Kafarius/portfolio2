@@ -102,3 +102,63 @@
     color: white;
     cursor: pointer;
 }
+@media (max-width: 550px)  {
+    .footer .footerinner {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer .footerpersonal {
+        flex-direction: column;
+    }
+    .footer .footerpersonal img{
+        margin: 0 auto;
+    }
+    .footer h3 {
+        font-size: 20px;
+    }
+    .footer .footertechs a {
+        font-size: 16px;
+    }
+    .footer .cr i{
+        display: block;
+        font-size: 18px;
+        text-align: center;
+        padding: 0;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        height: auto;
+    }
+
+    .footer .quote {
+        display: block;
+        padding: 10px;
+        color: #d7d7d7;
+        height: auto;
+        width: 60%;
+        border: 2px solid white;
+        border-radius: 10px;
+        box-sizing: border-box;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+    .footer .quote i {
+        display: block;
+        color: #ffffff;
+        width: 100%;
+        text-align: right;
+
+    }
+    .footertechs {
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid #5b9bcf;
+    }
+    .footertechs h3 {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .footertechs a {
+        text-align: center;
+    }
+}

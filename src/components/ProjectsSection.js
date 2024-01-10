@@ -3,7 +3,7 @@ import classes from '../css/ProjectsSection.module.css'
 import { FaProjectDiagram } from 'react-icons/fa';
 import { motion } from "framer-motion";
 
-const ProjectsSection = () => {
+const ProjectsSection = (props) => {
     const scrollRef = useRef(null);
 
     const projects = [
@@ -82,7 +82,7 @@ const ProjectsSection = () => {
             name: 'Posts',
             text: 'This is a recruitment task, which i found at github. I wanted to present my solution to this task.',
             projectLink: 'https://grand-rugelach-f47069.netlify.app/',
-            githubLink: ['https://github.com/Pagepro/react-recruitment-task', 'https://github.com/Kafarius/posts'],
+            githubLink: 'https://github.com/Pagepro/react-recruitment-task',
             techs: [
                 {
                     name: 'React',
@@ -170,7 +170,7 @@ const ProjectsSection = () => {
 
 
     return (
-        <div className={classes.projectssection}>
+        <div id="projects-section" className={classes.projectssection}>
             <div className={classes.projectstile}>
                 <div className={classes.details}>
                     <motion.h1

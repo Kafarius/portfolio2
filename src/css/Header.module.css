@@ -33,3 +33,19 @@
     text-decoration: underline;
     color: #65c5ff;
 }
+@media (max-width: 500px) {
+    .navbar {
+        height: 100px;
+        display: flex;
+        gap: 1%;
+    }
+    .navlink {
+        height: 50px;
+        box-sizing: border-box;
+        width: 48%;
+
+
+    }
+
+
+}

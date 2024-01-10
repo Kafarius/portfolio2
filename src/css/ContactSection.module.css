@@ -14,7 +14,7 @@
     flex-direction: column;
     width: 60%;
     height: auto;
-    margin-left: 20%;
+    margin: 0 auto;
     position: relative;
     top: 10%;
     min-height: 200px;
@@ -126,4 +126,130 @@
 }
 .contactsocials a svg {
     font-size: 35px;
+}
+@media (max-width: 1700px) and (min-width: 1352px) {
+    .contacttile {
+        width: 70% !important;
+
+    }
+}
+@media (max-width: 1351px) and (min-width: 1100px) {
+    .contacttile {
+        width: 80% !important;
+    }
+}
+@media (max-width: 1099px)  {
+    .contacttile {
+        flex-direction: column !important;
+    }
+    .contacttile .segment {
+        flex-direction: column !important;
+    }
+    .contactinfos {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .contactinfos li {
+        /*justify-content: center;*/
+        padding-left: 25%;
+    }
+    form {
+        box-sizing: border-box;
+    }
+    .contactsocials {
+        width: 45%;
+    }
+    .contactsection form {
+        width: 100%;
+    }
+    .contactsection form input, .contactsection form textarea {
+        width: 45%;
+        margin-bottom: 15px;
+    }
+    textarea {
+        margin-bottom: 20px;
+    }
+    .contactsection form input[type="submit"] {
+        margin-top: 10px;
+        width: 25%;
+    }
+    .contactsection form p {
+        display: block;
+        margin-top: 20px;
+    }
+    .contactheader {
+        display: block;
+        padding: 0;
+        font-size: 60px;
+        color: white;
+        text-shadow: #000000 2px 2px 2px;
+        text-align: center;
+    }
+    .contactheader span {
+        color: #5b9bcf;
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+}
+@media (max-width: 700px)  {
+    .contactdetails {
+        padding: 0;
+    }
+    .contactdetails li {
+        display: block;
+        padding: 10px;
+    }
+    .contactdetails p {
+        text-align: center;
+    }
+    form input, form textarea {
+        width: 40vw !important;
+    }
+    form input[type="submit"] {
+        width: 25vw !important;
+    }
+
+}
+@media (max-width: 1000px) {
+    .contactheader {
+        margin: 20px auto;
+        font-size: 5vw;
+    }
+
+}
+@media (max-width: 500px) {
+    .contacttile {
+        width: 100%;
+    }
+    span {
+        text-align: center;
+    }
+    .contactdetails {
+        padding: 0;
+    }
+    .contactdetails li {
+        display: block;
+        padding: 30px;
+        border-bottom: 1px dashed #303030;
+        margin: 0 auto;
+    }
+    .contactdetails li div:first-child{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .contactdetails li:last-child{
+        border-bottom: none;
+    }
+    .contactdetails p {
+        text-align: center;
+    }
+    form input, form textarea {
+        width: 60vw !important;
+    }
+    form input[type="submit"] {
+        width: 25vw
+    }
 }

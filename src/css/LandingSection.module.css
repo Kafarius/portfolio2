@@ -1,8 +1,7 @@
 .landingsection {
     display: block;
     width: 100%;
-    height: 100vh;
-    /*background-color: gray;*/
+    min-height: 100vh;
     background-image: url("../imgs/landing2.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -13,9 +12,8 @@
     display: block;
     width: 60%;
     height: auto;
-    margin-left: 20%;
-    position: relative;
-    top: 10%;
+    margin: 0 auto;
+    transform: translateY(3.5vw);
 }
 .landingtile .hi {
 
@@ -24,12 +22,10 @@
     text-align: center;
     font-size: 70px;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     color: #e6e8e2;
 }
-.landingtile .iam {
 
-}
 .landingtile .iam p {
     text-align: center;
     padding-top: 0;
@@ -60,13 +56,62 @@
     color: #5b9bcf;
 }
 .landingtile .down {
-    width: 4%;
-    margin-top: 15%;
-    margin-left: 48%;
+    width: 20%;
+    margin: 6% auto;
+    margin-bottom: -6%;
     color: white;
     font-size: 40px;
     cursor: pointer;
+    text-align: center;
 }
 .landingtile .down:hover {
     color: #64cf49;
+}
+@media (max-width: 1000px) and (min-width: 700px) {
+    .landingtile .hi h1 {
+        font-size: 6.5vw;
+    }
+
+}
+@media  (max-width: 699px) {
+    .landingtile .hi h1 {
+        font-size: 40px;
+    }
+    .landingtile .iam p {
+        font-size: 20px;
+    }
+    .landingtile .socials {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 50px;
+    }
+    .landingtile .socials svg {
+        margin: 0 20px ;
+    }
+    .landingtile .down {
+
+    }
+
+    .landingtile .separator {
+        margin: 50px auto;
+    }
+}
+@media  (max-width: 500px) {
+    .landingsection .landingtile {
+        width: 100%;
+    }
+    .landingtile .hi{
+
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+    .landingtile .separator {
+        margin: 30px auto;
+    }
+    .landingtile .socials svg {
+        height: 40px;
+        width: 40px;
+    }
 }

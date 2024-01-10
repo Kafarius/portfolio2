@@ -15,7 +15,7 @@
     flex-direction: column;
     width: 60%;
     height: auto;
-    margin-left: 20%;
+    margin: 0 auto;
     position: relative;
     top: 10%;
     min-height: 200px;
@@ -219,4 +219,151 @@
     cursor: pointer;
 }
 
+@media (max-width: 1351px) and (min-width: 1000px) {
+    .abouttile .segment:first-child {
+        display: block;
+    }
+    .aboutsection .imagebox {
+        margin: 0 auto;
+    }
+    .aboutsection .imagebox img {
 
+    }
+    .aboutsection .detailsheader {
+        margin: 20px;
+    }
+
+}
+@media (max-width: 1700px) and (min-width: 1352px) {
+    .abouttile {
+        width: 80% !important;
+
+    }
+}
+
+@media (max-width: 1099px) {
+    .detailsheader {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 501px) {
+    .abouttile .segment {
+        display: block;
+        margin: 30px auto;
+    }
+    .abouttile .segment:first-child {
+        display: block;
+    }
+    .aboutsection .imagebox {
+        margin: 0 auto;
+        padding: 3vw;
+    }
+    .imagebox img {
+        display: block;
+        width: 23vw;
+    }
+    .aboutsection .imagebox {
+        margin: 0 auto;
+    }
+    .aboutsection .detailsheader {
+        margin: 20px;
+        font-size: 5vw;
+    }
+    .detailsheader svg {
+        display: none;
+    }
+    .experience, .education {
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .experience h3, .education h3 {
+        text-align: center;
+        padding: 10px;
+    }
+    .experience ul, .education ul {
+        padding: 10px;
+       margin: 0 10%;
+    }
+    .skills ul {
+        margin: 0;
+    }
+    .gotoprojects {
+        padding-bottom: 30px;
+        box-sizing: border-box;
+    }
+
+
+
+
+
+    .segment:last-child .experience, .segment:last-child .education {
+        display: flex;
+    }
+}
+@media  (max-width: 500px) {
+    .aboutsection .abouttile {
+        width: 100%;
+    }
+    .abouttile .segment {
+        display: block;
+        margin: 30px auto;
+        width: 100% !important;
+    }
+    .abouttile .segment:first-child {
+        display: block;
+    }
+    .aboutsection .imagebox {
+        margin: 0 auto;
+        padding: 3vw;
+    }
+    .imagebox img {
+        display: block;
+        width: 43vw;
+    }
+    .aboutsection .imagebox {
+        margin: 0 auto;
+    }
+    .aboutsection .detailsheader {
+        margin: 20px;
+        font-size: 5vw;
+    }
+    .aboutsection .detailsinner p {
+        padding: 20px;
+    }
+    .aboutsection .detailsinner h2{
+        text-align: center;
+    }
+    .detailsheader svg {
+        display: none;
+    }
+    .experience, .education {
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .experience h3, .education h3 {
+        text-align: center;
+        padding: 10px;
+    }
+    .experience ul, .education ul {
+        padding: 10px;
+        margin: 0 10%;
+    }
+    .skills ul {
+        margin: 0;
+    }
+    .gotoprojects {
+        padding-bottom: 30px;
+        box-sizing: border-box;
+    }
+
+
+
+
+
+    .segment:last-child .experience, .segment:last-child .education {
+        display: flex;
+    }
+}
