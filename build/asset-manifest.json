@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4fc09f67.css",
-    "main.js": "/static/js/main.2de1ef81.js",
+    "main.js": "/static/js/main.99a39850.js",
     "static/media/about.jpg": "/static/media/about.b671e4b9a93b53178c43.jpg",
     "static/media/projects.jpg": "/static/media/projects.069785af1a44861feac6.jpg",
     "static/media/rpg.jpg": "/static/media/rpg.3ff5de20d5c3154246fc.jpg",
@@ -20,10 +20,10 @@
     "static/media/redux_logo.png": "/static/media/redux_logo.b3b939c66aecf7d53967.png",
     "index.html": "/index.html",
     "main.4fc09f67.css.map": "/static/css/main.4fc09f67.css.map",
-    "main.2de1ef81.js.map": "/static/js/main.2de1ef81.js.map"
+    "main.99a39850.js.map": "/static/js/main.99a39850.js.map"
   },
   "entrypoints": [
     "static/css/main.4fc09f67.css",
-    "static/js/main.2de1ef81.js"
+    "static/js/main.99a39850.js"
   ]
 }

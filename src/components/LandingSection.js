@@ -5,8 +5,7 @@ import { motion } from "framer-motion"
 import { BiDownArrow, BiLogoLinkedin, BiLogoGithub } from 'react-icons/bi';
 
 const LandingSection = (props) => {
-    const screenWidth = window.innerWidth;
-    let pad = screenWidth <= 500 ? 100 : 50
+
 
     return (
         <div id="landing-section" className={classes.landingsection}>
@@ -59,7 +58,7 @@ const LandingSection = (props) => {
                     animate={{opacity: 1, y: 0}}
                     transition={{ delay: 3, duration: 0.75 }}
                     className={classes.down}
-                    onClick={()=>window.scrollTo({top: props.offsetArr[1] - pad, behavior: 'smooth'})}
+                    onClick={()=>window.scrollTo({top: props.offsetArr[1] , behavior: 'smooth'})}
                 >
                     <BiDownArrow />
                 </motion.div>

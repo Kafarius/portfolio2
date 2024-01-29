@@ -19,17 +19,17 @@ const Header = (props) => {
                     Home
                 </a>
                 <a
-                    onClick={()=>window.scrollTo({top: props.offsetArr[1] - pad, behavior: 'smooth'})}
+                    onClick={()=>window.scrollTo({top: props.offsetArr[1] , behavior: 'smooth'})}
                     className={classes.navlink}>
                     About
                 </a>
                 <a
-                    onClick={()=>window.scrollTo({top: props.offsetArr[2] - pad, behavior: 'smooth'})}
+                    onClick={()=>window.scrollTo({top: props.offsetArr[2] , behavior: 'smooth'})}
                     className={classes.navlink}>
                     Projects
                 </a>
                 <a
-                    onClick={()=>window.scrollTo({top: props.offsetArr[3] - pad, behavior: 'smooth'})}
+                    onClick={()=>window.scrollTo({top: props.offsetArr[3] , behavior: 'smooth'})}
                     className={classes.navlink}>
                     Contact
                 </a>

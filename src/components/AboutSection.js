@@ -205,7 +205,7 @@ const AboutSection = (props) => {
                         <h1>Let's work <span className={classes.together}><br></br>together</span>.</h1>
                         <motion.div
                             className={classes.arrowwrap}
-                            onClick={()=>window.scrollTo({top: props.offsetArr[3]-pad, behavior: 'smooth'})}
+                            onClick={()=>window.scrollTo({top: props.offsetArr[3], behavior: 'smooth'})}
                             animate={{
                                 scale: [1, 2, 2, 1, 1],
                                 rotate: [0, 0, 270, 270, 0],
@@ -233,7 +233,7 @@ const AboutSection = (props) => {
                     >
                         <h3>PROJECTS</h3>
                         <a
-                            onClick={()=>window.scrollTo({top: props.offsetArr[2]-pad, behavior: 'smooth'})}
+                            onClick={()=>window.scrollTo({top: props.offsetArr[2], behavior: 'smooth'})}
                             // href={'#'}
                         > Check out my projects.
                         </a>
